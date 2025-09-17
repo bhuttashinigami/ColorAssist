@@ -57,6 +57,12 @@ nav a.active {
     color: #000000;
 }
 
+nav .boss:hover,
+nav .boss.active {
+    background-color: #2D1B69;
+    color: #ffffff;
+}
+
 /* Main Content */
 main {
     min-height: calc(100vh - 120px);
