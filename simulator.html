@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Blindness Simulator - Color Accessibility Hub</title>
+    <meta name="description" content="See how different types of color blindness affect the perception of common web elements">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Color Accessibility Hub</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="simulator.html" class="active">Simulator</a></li>
+                <li><a href="palette.html">Palettes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Color Blindness Simulator</h1>
+            <p class="subtitle">See how different types of color blindness affect web elements</p>
+        </section>
+
+        <section class="content">
+            <div class="simulator-section">
+                <h2>Common Web Elements</h2>
+                <p>Below are examples of how common web elements appear to people with different types of color blindness:</p>
+
+                <div class="example-group">
+                    <h3>Navigation Buttons</h3>
+                    <div class="vision-comparison">
+                        <div class="vision-example">
+                            <h4>Normal Vision</h4>
+                            <div class="button-row">
+                                <button class="demo-btn demo-success">Success</button>
+                                <button class="demo-btn demo-warning">Warning</button>
+                                <button class="demo-btn demo-danger">Error</button>
+                                <button class="demo-btn demo-info">Info</button>
+                            </div>
+                        </div>
+                        
+                        <div class="vision-example">
+                            <h4>Deuteranopia (Green Blind)</h4>
+                            <div class="button-row deuteranopia">
+                                <button class="demo-btn demo-success">Success</button>
+                                <button class="demo-btn demo-warning">Warning</button>
+                                <button class="demo-btn demo-danger">Error</button>
+                                <button class="demo-btn demo-info">Info</button>
+                            </div>
+                        </div>
+
+                        <div class="vision-example">
+                            <h4>Protanopia (Red Blind)</h4>
+                            <div class="button-row protanopia">
+                                <button class="demo-btn demo-success">Success</button>
+                                <button class="demo-btn demo-warning">Warning</button>
+                                <button class="demo-btn demo-danger">Error</button>
+                                <button class="demo-btn demo-info">Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-group">
+                    <h3>Status Messages</h3>
+                    <div class="vision-comparison">
+                        <div class="vision-example">
+                            <h4>Normal Vision</h4>
+                            <div class="status-messages">
+                                <div class="status-msg status-success">✓ Form submitted successfully!</div>
+                                <div class="status-msg status-warning">⚠ Please check your input</div>
+                                <div class="status-msg status-error">✗ An error occurred</div>
+                            </div>
+                        </div>
+                        
+                        <div class="vision-example">
+                            <h4>Deuteranopia (Green Blind)</h4>
+                            <div class="status-messages deuteranopia">
+                                <div class="status-msg status-success">✓ Form submitted successfully!</div>
+                                <div class="status-msg status-warning">⚠ Please check your input</div>
+                                <div class="status-msg status-error">✗ An error occurred</div>
+                            </div>
+                        </div>
+
+                        <div class="vision-example">
+                            <h4>Protanopia (Red Blind)</h4>
+                            <div class="status-messages protanopia">
+                                <div class="status-msg status-success">✓ Form submitted successfully!</div>
+                                <div class="status-msg status-warning">⚠ Please check your input</div>
+                                <div class="status-msg status-error">✗ An error occurred</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accessibility-tips">
+                    <h3>Key Observations</h3>
+                    <ul>
+                        <li>Red and green colors often appear similar to color blind users</li>
+                        <li>Icons and text labels help distinguish between different states</li>
+                        <li>High contrast is essential for readability</li>
+                        <li>Don't rely solely on color to convey important information</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Color Accessibility Hub. Designed for everyone.</p>
+    </footer>
+</body>
+</html>
